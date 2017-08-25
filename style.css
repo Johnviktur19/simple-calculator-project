@@ -1,0 +1,56 @@
+<style>
+h1 {
+	color:blue;
+	position:relative;
+	font-size: 20px;
+	font-family:verdana bold;
+}
+
+  .box {
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    left: 30%;
+    top: 100px;
+}
+.display {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 60px; 
+}
+	.key {
+    position: relative;
+    top: 30px;
+}
+  .display input {
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 35px;
+    color: red
+    background-color: "white";
+    font-size: 21px;
+    text-align: justify;
+}
+
+.button {
+    width: 25px;
+    height: 20px;
+    border: none;
+    margin-left: 14px;
+    cursor:pointer;
+}
+  .button.one {
+    color: red;
+  
+}
+  .button.two {
+    color: black;
+    
+}
+
+</style>
+
+
